@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Arrows&family=Lobster&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('/image/img2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__link a {
+    background-color: #938b7e89;
+    border: 2px solid #938b7e; 
+    color: 
+ #0e202a;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+.intro-image__link a:hover {
+transform: scale(1.2);
+}
+
+.intro-text {
+background-color: #9a7e57;
+color: #0a0605 ;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image {
+    background-attachment: fixed;
+    background-image: url('/image/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image__link a {
+
+    background-color: #6876828e;
+    border: 2px solid #ebd4b4; 
+    color: #b98c7e;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.quality-image__link a:hover {
+ transform: scale(1.2);
+
+}
+.quality-text { 
+    background-color: #3e5665;
+color: #b98c7e ;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+}
+
+.quality-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.origin-image {
+    background-attachment: fixed;
+    background-image: url('/image/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.origin-image__link a {
+
+    background-color: #fda94240;
+    border: 2px solid #fda932; 
+    color: #a99890;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.origin-image__link a:hover {
+    transform: scale(1.2);
+   }
+
+   .origin-text { 
+    background-color: #8d551ddd;
+color: #22221f ;
+height: 250px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 15rem;
+}
+
+.origin-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #8d551df0;
+    color: #22221f;
+    font-size: 2rem;
+    padding-top: 4rem;
+}
+
+
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+.footer ul li a {
+color:#22221f;
+text-decoration: none;
+}
+
+.footer ul li :hover {
+    transform: scale(1.3);
+}
